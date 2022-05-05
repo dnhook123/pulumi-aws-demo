@@ -4,7 +4,7 @@ const stackConfig = new pulumi.Config('cr-test');
 
 // Create an AWS resource (S3 Bucket)
 function davidwengpang() {
-    const bucket = new aws.s3.Bucket(stackConfig.require('purposeName'),);
+    const bucket = new aws.s3.Bucket(stackConfig.require('purposeName'));
 }
 
 module.exports = davidwengpang();
