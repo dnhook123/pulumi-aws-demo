@@ -1,5 +1,5 @@
 import * as aws from "@pulumi/aws";
-import * as pulumi from "@pulumi"
+import * as pulumi from "@pulumi/pulumi"
 const stackConfig = new pulumi.Config('cr-test');
 
 // Create an AWS resource (S3 Bucket)
