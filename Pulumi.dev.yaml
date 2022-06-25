@@ -1,3 +1,3 @@
 config:
   aws:region: eu-west-1
-  aws-demo:purposeName: demo-purpose
+  pulumi-aws-demo:purposeName: demo-purpose
